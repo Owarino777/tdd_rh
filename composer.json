@@ -1,0 +1,26 @@
+{
+    "name": "malik/tdd-rh",
+    "description": "Calcul de jours de conges en TDD",
+    "autoload": {
+        "psr-4": {
+            "TddRh\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TddRh\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    },
+    "authors": [
+        {
+            "name": "Malik"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "test": "phpunit"
+    }
+}
